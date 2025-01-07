@@ -1,4 +1,4 @@
-- **Título:** # Machine_Learning_KESTD
+# Machine_Learning_KESTD
 - **Integrantes:**
     - Carlos Mario Chang Jardínez (https://github.com/0HH02)
     - Ernesto Rousell Zurita (https://github.com/Rousellz)
