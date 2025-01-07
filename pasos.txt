@@ -1,0 +1,86 @@
+Cosas a tener en cuenta a la hora de explorar los datos:
+- Estudiar si los datos son normales
+- Graficar los datos
+
+
+funciones de pérdidas a considerar:
+MSE
+Log(cosh(error))
+
+funcion de activación a considerar:
+https://www.datacamp.com/es/tutorial/introduction-to-activation-functions-in-neural-networks
+
+descenso de gradiente a considerar:
+BGD (batch)
+SGD (stochastic)
+MBGD (mini-batch)
+Adam, RMSprop, Adagrad.
+
+metricas de evaluación a considerar:
+Investigar Accuracy, precision, recall, F1-score.
+
+metricas finales a considerar:
+MAE, MSE, R².
+
+- Sobre errores numericos en pythorch:
+. PyTorch Maneja Automáticamente:
+Funciones de activación numéricamente estables.
+Inicialización predeterminada razonable.
+Herramientas para clipping de gradientes y optimización.
+Implementación eficiente de Batch Normalization (si la agregas).
+
+Lo que Tú Debes Hacer:
+. Preprocesar los datos (normalización o estandarización).
+Personalizar la inicialización de pesos si usas funciones susceptibles como sigmoide/tanh.
+Añadir capas de Batch Normalization si es necesario.
+Configurar clipping de gradiente si observas explosiones.
+
+- Tipos de inicialización:
+La inicialización de pesos es crucial para el entrenamiento eficiente de redes neuronales. Inicializar incorrectamente los pesos puede causar problemas como explosión o desvanecimiento del gradiente.
+Xavier (sigmoide y tanh)
+He (relu)
+Uniforme (todas)
+
+-Tipos de Batch Normalization:
+. BatchNorm para capas densas (tabulares)
+. BatchNorm para datos de imágenes (convolucionales):
+Ventajas:
+Reduce el desvanecimiento/explosión del gradiente.
+Permite usar tasas de aprendizaje más altas.
+Reduce la sensibilidad a la inicialización de pesos.
+
+- Clipping:
+El clipping de gradiente es una técnica para manejar la explosión del gradiente al limitar su magnitud máxima. Esto es crucial en redes profundas o RNNs, donde los gradientes pueden crecer descontroladamente.
+Cuándo Usar Clipping:
+En problemas con redes profundas (como RNNs o transformers).
+Si notas inestabilidad en el entrenamiento debido a gradientes extremadamente grandes.
+
+
+Método	Actualización de Pesos	Ventajas	Desventajas	Uso Recomendado
+Batch GD (BGD)	Usa todo el conjunto de datos para calcular un gradiente único.	- Actualizaciones estables.
+- Buena convergencia en problemas convexos.	- Computacionalmente costoso para grandes datasets.
+- Difícil de usar con datos en streaming.	- Conjuntos de datos pequeños o que caben en memoria.
+Mini-Batch GD (MBGD)	Divide los datos en lotes pequeños; actualiza parámetros para cada mini-lote.	- Balance entre estabilidad y velocidad.
+- Aprovecha la paralelización.
+- Convergencia más rápida.	- Menos estable que BGD.
+- Requiere elegir tamaño del lote.	- Escenarios prácticos en general.
+- Problemas con datos grandes o redes profundas.
+Stochastic GD (SGD)	Calcula el gradiente usando una sola muestra por iteración.	- Rápido para datasets grandes.
+- Puede escapar de mínimos locales.	- Gradientes ruidosos.
+- Convergencia más lenta y menos estable.	- Problemas con grandes cantidades de datos en tiempo real.
+Adam	Combina Momentum y Adagrad; ajusta dinámicamente la tasa de aprendizaje.	- Rápido y eficiente.
+- Adapta tasas de aprendizaje individuales.
+- Robusto con datos ruidosos.	- Requiere ajuste cuidadoso de hiperparámetros.
+- Puede converger a mínimos subóptimos.	- Redes profundas.
+- Datos ruidosos.
+- Escenarios genéricos con arquitectura compleja.
+RMSprop	Promedia los cuadrados recientes del gradiente para escalar la tasa de aprendizaje.	- Maneja gradientes dinámicos.
+- Funciona bien en problemas no estacionarios.
+- Eficiente.	- Sensible al ajuste de la tasa de aprendizaje.
+- Menos versátil que Adam.	- Redes recurrentes (RNNs).
+- Problemas con gradientes variables.
+Adagrad	Ajusta la tasa de aprendizaje con base en la frecuencia de actualización de cada parámetro.	- Excelente para datos dispersos.
+- Adapta automáticamente la tasa de aprendizaje.	- La acumulación de gradientes puede detener el aprendizaje en iteraciones posteriores.	- Datos dispersos como en NLP o sistemas de recomendación.
+- Cuando no se desea ajustar 
+𝜂
+η.
