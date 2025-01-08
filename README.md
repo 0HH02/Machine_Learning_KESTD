@@ -1,4 +1,4 @@
-- **Título:** # Machine_Learning_KESTD
+# Machine_Learning_KESTD
 - **Integrantes:**
     - Carlos Mario Chang Jardínez (https://github.com/0HH02)
     - Ernesto Rousell Zurita (https://github.com/Rousellz)
@@ -21,6 +21,6 @@ El objetivo es construir un modelo de aprendizaje automático (ML) para predecir
 ### Datos a predecir
 El modelo de ML debe predecir las intensidades de STD para cada protón del ligando en función de los descriptores del entorno molecular. Esto implica aprender la relación entre las características del entorno y las intensidades de STD observadas experimentalmente.
 
-##Importancia del proyecto
+## Importancia del proyecto
 Este proyecto es crucial para el avance en el diseño racional de fármacos, especialmente en el contexto del descubrimiento de fármacos basado en fragmentos, ya que las interacciones de baja afinidad entre proteínas y ligandos son fundamentales para muchos procesos biológicos, como la comunicación celular, la transducción de señales y las respuestas inmunitarias. La caracterización precisa de estos complejos de baja afinidad es desafiante debido a su sensibilidad a las variaciones ambientales, lo que subraya la importancia de este estudio. El uso de un modelo de Machine Learning (ML) ofrece varias ventajas significativas en este contexto: permite analizar eficazmente las interacciones ligando-proteína, superando las limitaciones de métodos tradicionales al incorporar descriptores moleculares y datos experimentales para crear un modelo predictivo robusto.
 
