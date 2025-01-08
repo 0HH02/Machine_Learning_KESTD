@@ -8,7 +8,7 @@
     
 - **Repositorio:** (https://github.com/0HH02/Machine_Learning_KESTD.git)
 
-- **Estado del arte:** (https://docs.google.com/spreadsheets/d/1j2p7_fZdBaSc_J9nqIiAaz_mt_vL8kZ5mpSiF0oKRSE/edit?usp=sharing)
+- **Estado del arte:** (https://docs.google.com/spreadsheets/d/1j2p7_fZdBaSc_J9nqIiAaz_mt_vL8kZ5mpSiF0oKRSE/edit?gid=0#gid=0)
 
 ## Resumen del proyecto
 
