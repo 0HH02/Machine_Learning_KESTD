@@ -8,7 +8,7 @@ Se han realizado varias configuraciones de entrenamiento con distintos **tiempos
 ---
 
 ## **2. Configuración de los experimentos**
-Se realizaron **siete experimentos** con distintas configuraciones en Auto-sklearn. Las diferencias principales entre cada experimento fueron:
+Se realizaron **nueve experimentos** con distintas configuraciones en Auto-sklearn. Las diferencias principales entre cada experimento fueron:
 
 | **Experimento** | **Tiempo de entrenamiento** | **Tiempo por modelo** | **Estrategia de resampling** | **Ensamble** | **Manejo de valores faltantes** |
 |---------------|-------------------------------|------------------------|---------------------------|-------------|------------------|
