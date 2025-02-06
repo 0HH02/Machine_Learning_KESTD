@@ -1,6 +1,6 @@
-PWD /home/carlos/Code/Machine_Learning_KESTD/report
+PWD /home/carlos/Code/Machine_Learning_KESTD/doc/report
 INPUT /home/carlos/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/carlos/Code/Machine_Learning_KESTD/report/machine_learning_report.tex
+INPUT /home/carlos/Code/Machine_Learning_KESTD/doc/report/machine_learning_report.tex
 OUTPUT machine_learning_report.log
 INPUT /home/carlos/.miktex/texmfs/install/tex/latex/base/article.cls
 INPUT /home/carlos/.miktex/texmfs/install/tex/latex/base/article.cls

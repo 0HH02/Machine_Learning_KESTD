@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2025.1.31)  31 JAN 2025 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.12) (preloaded format=pdflatex 2025.1.31)  6 FEB 2025 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/carlos/Code/Machine_Learning_KESTD/report/machine_learning_report.tex
-(/home/carlos/Code/Machine_Learning_KESTD/report/machine_learning_report.tex
+**/home/carlos/Code/Machine_Learning_KESTD/doc/report/machine_learning_report.tex
+(/home/carlos/Code/Machine_Learning_KESTD/doc/report/machine_learning_report.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (/home/carlos/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -378,16 +378,16 @@ L3 programming layer <2024-12-25>
  ) 
 Here is how much of TeX's memory you used:
  1565 strings out of 475473
- 25978 string characters out of 5766891
- 415212 words of memory out of 5000000
+ 26002 string characters out of 5766891
+ 416216 words of memory out of 5000000
  24560 multiletter control sequences out of 15000+600000
  565334 words of font info for 57 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,11n,65p,323b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,327b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx0900.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr5.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy5.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi5.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi7.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmex10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx12.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi720/cmbx12.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr9.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmbx9.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmr17.pk>
-Output written on machine_learning_report.pdf (13 pages, 246861 bytes).
+Output written on machine_learning_report.pdf (13 pages, 247259 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
+ 533 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

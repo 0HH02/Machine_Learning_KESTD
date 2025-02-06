@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex machine_learning_report"] 1738361849.17736 "machine_learning_report.aux" "machine_learning_report.bbl" "machine_learning_report" 1738362692.88136 0
-  "./biblio.bib" 1738358380.72514 1415 6a1df858d9915cb7a378a62c2223432e ""
+["bibtex machine_learning_report"] 1738361849.17736 "machine_learning_report.aux" "machine_learning_report.bbl" "machine_learning_report" 1738864149.38257 0
+  "./biblio.bib" 1738864039.37708 1415 6a1df858d9915cb7a378a62c2223432e ""
   "/home/carlos/.miktex/texmfs/install/bibtex/bst/bibtex/plain.bst" 1738357513.95955 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "machine_learning_report.aux" 1738362692.21441 3350 8ee42d67d8a6b5d589f1ec3459102a81 "pdflatex"
+  "machine_learning_report.aux" 1738864148.78309 3350 8ee42d67d8a6b5d589f1ec3459102a81 "pdflatex"
   (generated)
   "machine_learning_report.bbl"
   "machine_learning_report.blg"
   (rewritten before read)
-["pdflatex"] 1738362691.91238 "/home/carlos/Code/Machine_Learning_KESTD/report/machine_learning_report.tex" "machine_learning_report.pdf" "machine_learning_report" 1738362692.8816 0
+["pdflatex"] 1738864148.51012 "/home/carlos/Code/Machine_Learning_KESTD/doc/report/machine_learning_report.tex" "machine_learning_report.pdf" "machine_learning_report" 1738864149.38281 0
   "/home/carlos/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1738357514.12587 21145 ff19c2f6d7d51939ef722e8350d811a1 ""
   "/home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx0900.pk" 1738355219.50331 10788 acffd571844652eb15e686352e4d3c09 ""
   "/home/carlos/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1738343998.01998 11548 fb23494291608145bd26be5f633c606a ""
@@ -64,12 +64,12 @@
   "/home/carlos/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1738302859.57602 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "/home/carlos/.miktex/texmfs/install/tex/latex/tools/array.sty" 1738355185.04373 14552 27664839421e418b87f56fa4c6f66b1a ""
   "/home/carlos/.miktex/texmfs/install/tex/latex/tools/tabularx.sty" 1738355185.04473 7243 e5dac1240636811edb77568b81818372 ""
-  "/home/carlos/Code/Machine_Learning_KESTD/report/machine_learning_report.tex" 1738362691.33542 18889 afaae3fa308ef5cbad569d8bd2f21c0c ""
-  "data_example.png" 1738353084.03542 77775 b075d06f7d9342dd4635ec70b8a0149e ""
-  "machine_learning_report.aux" 1738362692.21441 3350 8ee42d67d8a6b5d589f1ec3459102a81 "pdflatex"
-  "machine_learning_report.bbl" 1738361849.29734 577 772fd5df4bc9a130f7f7557d86badf85 "bibtex machine_learning_report"
-  "machine_learning_report.tex" 1738362691.33542 18889 afaae3fa308ef5cbad569d8bd2f21c0c ""
-  "result.jpg" 1738353971.16782 31051 0727fbae79eefd412e6aa78213368669 ""
+  "/home/carlos/Code/Machine_Learning_KESTD/doc/report/machine_learning_report.tex" 1738864147.96809 18893 f0885e533418ae30029a1cb1c3e2a12d ""
+  "data_example.png" 1738864039.37708 77775 b075d06f7d9342dd4635ec70b8a0149e ""
+  "machine_learning_report.aux" 1738864148.78309 3350 8ee42d67d8a6b5d589f1ec3459102a81 "pdflatex"
+  "machine_learning_report.bbl" 1738864039.37708 577 772fd5df4bc9a130f7f7557d86badf85 "bibtex machine_learning_report"
+  "machine_learning_report.tex" 1738864147.96809 18893 f0885e533418ae30029a1cb1c3e2a12d ""
+  "result.jpg" 1738864039.37808 31051 0727fbae79eefd412e6aa78213368669 ""
   (generated)
   "machine_learning_report.aux"
   "machine_learning_report.log"
